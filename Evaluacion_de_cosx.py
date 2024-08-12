@@ -1,4 +1,5 @@
-# Calculo de cos(x) usando la expansión de Taylor
+# Calculo de cos(x) usando la expansión de Taylor y con la funcion math
+import math
 
 def factorial(n):
     """Computa el factorial de n (n!)."""
@@ -56,5 +57,6 @@ if __name__ == "__main__":
 
     # Calcular el coseno usando la expansión de Taylor
     cosine_value = cosine_series(x_radians, terms)
-
+    valor_función = math.cos(x_radians)
     print(f"Usando la expansión de Taylor, el coseno de {x_degrees} grados es aproximadamente: {cosine_value}")
+    print(f"Usando la biblioteca math, el valor del coseno con {x_degrees} es {valor_función}")
