@@ -31,7 +31,7 @@ def plot_function(epsilon, n, tolerance=0.1):
     plt.ylabel('f(x)')
     plt.grid(True)
     plt.legend()
-    plt.show()
+
 
     return n, difference
 
@@ -43,4 +43,4 @@ tolerance = 0.1  # Tolerance level for the difference
 
 n, final_difference = plot_function(epsilon, initial_n, tolerance)
 print(f"Final n: {n}, Maximum difference: {final_difference:.4f}")
-
+plt.show()
