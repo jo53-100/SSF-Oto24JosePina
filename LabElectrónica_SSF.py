@@ -1,3 +1,7 @@
+## Este programa saca estadísticas a partir de unas mediciones obtenidas
+## En el laboratorio de electrónica, debajo del Dr. Castillo
+## Es muy probable que exista en algún lado un reporte acerca de este código
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.stats import linregress
