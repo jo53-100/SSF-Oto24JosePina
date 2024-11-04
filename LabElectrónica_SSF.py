@@ -67,9 +67,12 @@ line_length = 5
 for i in range(0, len(diference), line_length):
     print(' cm , '.join(map(str, diference[i:i+line_length])) + ' cm')
 
+# Print the linear equation
+print(f"The linear regression function is: y = {slope:.4f}x + {intercept:.4f}")
+
 print(f"La distancia promedio recorrida es {mean_value:.4f} cm")
 print(f"La desviación estandar es {std_deviation:.4f} cm")
-print(f"La varianza es {variance_value:.4f} cm")
+print(f"La varianza es {variance_value:.4f} cm²")
 print(f"La distancia promedio recorrida en un solo paso es {single_step_mean_distance:.4f} cm")
 
 
