@@ -88,3 +88,4 @@ for n in n_valores:
     print(f"Valor aproximado con {n} subintervalos usando la regla del trapezoide: {I_trap:.6f}, Error: {error_trap:.6f}")
     print(f"Valor aproximado con {n} subintervalos usando la regla de Simpson: {I_simp:.6f}, Error: {error_simp:.6f}")
     print(f"Valor aproximado con {n} subintervalos usando Gauss_Legendre: {I_gauss:.6f}, Error: {error_gauss:.6f}")
+
