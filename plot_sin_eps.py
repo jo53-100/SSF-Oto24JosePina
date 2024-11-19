@@ -15,7 +15,7 @@ def plot_function(epsilon, tolerance=0.1, max_iterations=100):
         tuple: (final_n, final_difference), where final_n is the smallest n for the tolerance condition.
     """
 
-    n = 5  # Initial value of n
+    n = 10  # Initial value of n
     difference = tolerance  # Initialize difference to enter the loop
 
     while difference >= tolerance and n < max_iterations:
@@ -49,7 +49,7 @@ def plot_function(epsilon, tolerance=0.1, max_iterations=100):
     return n, difference
 
 # Example usage for question (c)
-epsilon = 1/5  # Input parameter ε > 0
+epsilon = 1/20  # Input parameter ε > 0
 tolerance = 0.1  # Tolerance level for difference
 
 n, final_difference = plot_function(epsilon, tolerance)

@@ -1,5 +1,5 @@
 ## El doc pide que sea por Gauss-Legendre
-## Este programita hace por varios tipos
+## Use otro programa parecido
 
 import numpy as np
 
